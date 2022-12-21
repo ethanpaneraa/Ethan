@@ -67,7 +67,7 @@ class AboutMe extends React.Component {
                     </ul>
                   </div>
                   <div className="about-image">
-                    <img src={"/assets/yo.jpg"} />
+                    <img src={process.env.PUBLIC_URL + "/assets/yo.jpg"} />
                   </div>
                 </div>
               </PopInSection>

@@ -33,7 +33,7 @@ class navigation extends React.Component {
             <a href="#about">{"</about>"}</a>,
             <a href="#profExperience">{"</experience>"}</a>,
             <a href="#PersonalProjects">{"</projects>"}</a>,
-            <a href="/assets/Pineda_Ethan_Resume_2025.pdf">{"</resume>"}</a>
+            <a href= {process.env.PUBLIC_URL + "/assets/Pineda_Ethan_Resume_2025.pdf"}>{"</resume>"}</a>
         ];
 
 
