@@ -1,0 +1,55 @@
+#aboutTwo {
+    padding-left: 15%;
+    padding-right: 25%;
+    min-width: 60vh;
+}
+
+.aboutTwo-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutTwo-desc {
+    color: var(--light-grey);
+    max-width: 800px;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--light-green) !important; 
+}
+
+.text-decoration {
+    font-weight: bold;
+    font-size: 22px; 
+}
+
+b {
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--light-green); 
+}
+
+.aboutTwo-desc ul {
+    padding-top: 17px;
+    margin-left: -40px;
+    list-style-type: none;
+    display: grid;
+  }
+
+.aboutTwo-desc li {
+    position: relative;
+    font-size: 0x;
+    color: var(--light-grey);
+    padding-top: 13px;
+  }
+
+  .aboutTwo-desc li::before {
+    content: "▹   ";
+    position: relative;
+    color: var(--light-green);
+    left: 0;
+  }

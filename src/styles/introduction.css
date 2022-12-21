@@ -1,0 +1,90 @@
+#introduction {
+    display: flex;
+    padding-top: 18%;
+    padding-left: 15%;
+    min-height: 69vh;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+canvas {
+    width: 250px !important;
+}
+
+.intro-title {
+    font-size: 86px; 
+}
+
+.myName {
+    color: var(--light-green);
+    font-weight: bold;
+}
+
+.introduction-sub {
+    color: var(--light-grey); 
+    font-size: 48px; 
+    text-align: left;
+}
+
+.about-me {
+    color: var(--light-grey);
+    font-size: 22px; 
+    max-width: 40%;
+    text-align: justify;
+    padding-bottom: 50px;
+
+}
+
+b {
+    font-size: 17px;
+}
+
+.Typist {
+    color: var(--light-grey); 
+    text-align: center;
+    font-size: 76px;
+    margin-top: -30px;
+}
+
+.Typist .Cursor--blinking {
+    color: var(--light-green);
+    padding-left: 4px;
+  }
+
+@media only screen and (max-width: 600px) {
+    #introduction {
+        min-height: unset;
+        padding-left: unset;
+        margin: 0px; 
+        align-items: center;
+    }
+
+    .intro-title {
+        font-size: 50px; 
+    }
+
+    .Typist {
+        font-size: 50px; 
+    }
+    
+    .myName {
+        color: var(--light-green);
+        font-weight: bold;
+    }
+    
+    .introduction-sub {
+        color: var(--light-grey); 
+        font-size: 25px; 
+        text-align: center; 
+    }
+    
+    .about-me {
+        color: var(--light-grey);
+        font-size: px; 
+        max-width: unset;
+        text-align: center;
+        padding-bottom: 50px;
+    
+    }
+
+}

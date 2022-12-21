@@ -1,0 +1,82 @@
+#PersonalProjects {
+    padding-left: 15%;
+    padding-right: 25%;
+    min-height: 60vh;
+}
+
+.projects-layout {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-gap: 15px;
+    list-style: none;
+}
+
+@media (max-width: 1080px) {
+    .projects-layout {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+
+.project-card {
+    position: relative;
+    cursor: default;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 80%;
+    padding: 2rem 1.75rem;
+    background-color: #494949;
+    border-radius: 20px;
+  }
+
+  .project-card:hover {
+    transform: translateY(-7px);
+  }
+
+  .card-header {
+    margin-top: -20px;
+    display: flex;
+    padding: 1.25em 0 !important;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: none !important;
+  }
+
+.web-logo {
+    margin-left: 10px;
+    padding-top: 20px !important;
+
+}
+  
+  .foler-icon {
+    color: var(--light-green);
+  }
+
+  .card-title {
+    color: var(--light-grey); 
+    font-size: 24px; 
+    font-weight: bold;
+  }
+
+  .card-desc {
+    color: var(--light-grey);
+    font-size: 18px; 
+    padding-bottom: 40px;
+  }
+
+  .card-technology {
+    color: var(--light-grey);
+    font-size: 16px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #projects {
+      padding-left: unset;
+      padding-right: unset;
+    }
+
+    .project-card {
+      height: auto;
+    }
+
+
+  }

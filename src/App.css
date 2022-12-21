@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#PageDetails{
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.section-header {
+  display: flex;
+  width: 100vw;
+  padding-bottom: 42px;
+}
+
+.section-header::after {
+  content: "";
+  display: block;
+  width: 300px;
+  margin-top: 39px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: var(--light-grey);
+}
+
+
+.section-title {
+  font-size: 46px;
+  color: var(--light-grey); 
+  font-weight: bold;
+}
+
+.rs-steps-horizontal .rs-steps-item-content {
+  text-align: left;
+}
+
+.App {
+  background-color: var(--black-grey);
+  display: flex;
+  flex-direction: row;
+}
+
+.pop-in-section {
+  opacity: 0;
+  transform: translateY(10vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
+  will-change: opacity, visibility;
+}
+.pop-in-section.is-show{
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
