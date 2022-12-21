@@ -39,7 +39,6 @@ a {
   }
   
 .about-description {
-    font-family: "NTR", sans-serif;
     color: var(--light-grey);
     max-width: 600px;
     font-size: 22px;
@@ -84,14 +83,15 @@ b {
 @media only screen and (max-width: 600px) {
     #about {
       height: unset;
-      padding-left: unset;
-      padding-right: unset;
+      padding-left: unset !important;
+      padding-right: 5%;
       padding-top: 30%;
     }
   
     .about-description {
       font-size: 18px;
       text-align: justify;
+      
     }
   
     .about-description a,
@@ -105,6 +105,13 @@ b {
   
     .about-content {
       display: unset;
+    }
+  }
+
+
+  @media only screen and (max-width: 788px) {
+    .about-image img {
+      max-width: 200px;
     }
   }
   

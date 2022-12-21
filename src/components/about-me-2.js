@@ -19,13 +19,14 @@ class AboutMeTwo extends React.Component {
 
     render () {
         const NorthwesternWork = (
-            <p>
-                At Northwestern, I am affliated with the <a className="text-decoration" href="https://tiilt.northwestern.edu/" target={"_blank"}>{" "}Technological Innovations for Inclusive Learning and Teaching (tiilt) </a>
-                research group where I work on implementing front-end features 
+
+            <p className="p-tag">
+                At Northwestern, I am affiliated with the <a className="text-decoration" href="https://tiilt.northwestern.edu/" target={"_blank"}>{" "}Technological Innovations for Inclusive Learning and Teaching (tiilt) </a>
+                research group where I work on implementing front-end features
                 for the multimodal-learning analytics platform:<a className="text-decoration" href="https://tiilt.northwestern.edu/projects/blinc/index.html" target={"_blank"}>{" "}B.L.I.N.C </a> 
-                and occansionally help with programming on the <a className="text-decoration" href="https://tiilt.northwestern.edu/projects/sportsanalytics/index.html" target={"_blank"}>{" "}Sports Sense</a> project. 
+                and occasionally help with programming on the <a className="text-decoration" href="https://tiilt.northwestern.edu/projects/sportsanalytics/index.html" target={"_blank"}>{" "}Sports Sense</a> project. 
                 
-                I also am a <b>undergradaute teaching assistant</b> for the following: 
+                I also am a <b className="text-decoration">undergradaute teaching assistant</b> for the following: 
                 <ul>
                     <li><a className="text-decoration" href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/214.html" target={"_blank"}>COMP_SCI 214: Data Structures and Algorithms</a></li>
                     Summer 2022, Fall 2022, Winter 2023
@@ -36,22 +37,22 @@ class AboutMeTwo extends React.Component {
                     Taught by <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html">Vincent St-Amour</a>
                 </ul>
 
-                In the Fall 2022 Quarter, I was fortnatue to have been awarded the Northwestern Computer Science department <b>Outstanding Peer Mentor Award</b>{" "}
-                in recoginotion of the dedication and quality I exhibited in my teaching and support towards students. 
+                In the Fall 2022 Quarter, I was fortunate to have been awarded the Northwestern Computer Science department <b className="text-decoration">Outstanding Peer Mentor Award</b>{" "}
+                in recognition of the dedication and quality I exhibited in my teaching and support towards students. 
 
 
             </p>
         ); 
 
         const OutSideWork = (
-            <p>
+            <p className="p-tag"> 
                 Outside of my academics, you can see me working with some amazing student organizations:
                 <ul>
                     <li><a className="text-decoration" href="https://www.instagram.com/shpe_nu/" target="_blank"> Society of Hispanic Professional Engineers (SHPE)</a></li>
                     MentorSHPE Chair
                     <br></br>
-                    As the MentorSHPE Chair for SHPE, I am responsible for cordinating and supervising our mentorship
-                    program that enables first-generation low-income STEM/Engineerning Majors at Northwestern to be recive 
+                    As the MentorSHPE Chair for SHPE, I am responsible for coordinating and supervising our mentorship
+                    program that enables first-generation low-income STEM/Engineering Majors at Northwestern to receive 
                     mentorship and guidance on navigating academics, professional goals, and overall personal development.
                     <li> <a className="text-decoration" href="https://www.instagram.com/nu.emergingcoders/" target={"_blank"}>Emerging Coders</a></li>
                     WebMaster
@@ -63,13 +64,10 @@ class AboutMeTwo extends React.Component {
                     <li><a className="text-decoration" href="https://www.instagram.com/nu_alianza/" target={"_blank"}>Alianza</a></li>
                     Historian
                     <br></br>
-                    At Alianza, we are tasked with uniting the Latine community and its allies at Northwestern through community 
-                    and social events. As the historian, I am tasked with maintaing a solid archive of our impact for future generations
-                    of Wildcats to  view. 
+                    At Alianza, we are tasked with uniting the Latine community and its allies at Northwestern through community and social events. As the historian, I am tasked with maintaining a solid archive of our impact for future generations of Wildcats to view.
                 </ul>
 
-                When I'm not working, you'll catch me exploring my hometown, Chicago, trying out new resturants, playing video games, 
-                listening to Omar Apollo, and touring new muesuems and art exhibits. 
+                When I'm not working, you'll catch me exploring my hometown, Chicago, trying out new restaurants, playing video games, listening to Omar Apollo, and touring new museums and art exhibits.
             </p>
         );
 
@@ -78,11 +76,9 @@ class AboutMeTwo extends React.Component {
         return (
             <div id="aboutTwo">
                 <PopInSection>
-                    <div className="aboutTwo-content">
                     <div className="aboutTwo-desc">
                     {[NorthwesternWork]}
                     {[OutSideWork]}
-                    </div>
                     </div>
                 </PopInSection>
             </div>

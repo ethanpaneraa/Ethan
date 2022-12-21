@@ -38,7 +38,7 @@ class navigation extends React.Component {
 
 
         return (
-            <div id="navigation">
+            <div className="navigation">
               {!userMobile && (
                 <Sidenav
                   expanded={expanded}

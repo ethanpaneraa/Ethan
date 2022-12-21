@@ -69,3 +69,28 @@ html {
   align-items: center;
   font-size: calc(10px + 2vmin);
 }
+
+
+@media only screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+    padding: 40px 24px;
+  }
+
+  #PageDetails {
+    padding: 10px 10px;
+    width: 100%;
+  }
+
+  .section-header {
+    width: unset;
+  }
+
+  .section-header::after {
+    display: none;
+  }  
+
+  .section-title {
+    font-size: 32px;
+  }
+}

@@ -90,7 +90,7 @@
   }
   
   @media only screen and (max-width: 600px) {
-    #experience {
+    #profExperience {
       padding-left: unset;
       padding-right: unset;
     }

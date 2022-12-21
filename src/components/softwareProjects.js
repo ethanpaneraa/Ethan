@@ -24,15 +24,15 @@ class PersonalProjects extends React.Component {
         
         const allProjects = {
             
-            "Chicago Furniture Bank Enviromental Calculator": {
-                desc: "Interactive web-based interactive calculator that shows you your envriomental impact of donating used furniuture",
+            "Chicago Furniture Bank Environmental Calculator": {
+                desc: "Interactive web-based interactive calculator that shows you your environmental impact of donating used furniture.",
                 technology: "Javascript, HTML & CSS",
                 link: "",
                 open: "https://stackoverflow.com/questions/73314061/importing-functions-from-other-files-not-working-react"
             }, 
 
             "ethan.me": {
-                desc: "My personal-portfolio website. What you are seeing here!",
+                desc: "My personal portfolio website. What you are seeing here!",
                 technology: "React.JS, HTML & CSS",
                 link:"",
                 open:"https://stackoverflow.com/questions/73314061/importing-functions-from-other-files-not-working-react"
@@ -42,27 +42,27 @@ class PersonalProjects extends React.Component {
             
             "Trip Planner API": {
             desc:
-                "Trip planning programming interface that provides routing and searching searches using various data structures (linked-list, hash tables, binary heaps) and algorithms (Dijkstra's algorithm, heap sort) to calculate best optimal routes given a specifed query and map",
+                "Trip planning programming interface that provides routing and searching searches using various data structures (linked-list, hash tables, binary heaps) and algorithms (Dijkstra's algorithm, heap sort) to calculate best optimal routes given a specified query and map.",
             technology: "DSSL2 (Racket)",
             link: "",
             open: ""
         }, 
             "Apollo": {
             desc: 
-                "Single-Player 2D brick breaker where your objective is to destory all the bricks on screen using your paddle.",
+                "Single-Player 2D brick breaker where your objective is to destroy all the bricks on screen using your paddle.",
             technology: "C# (UNITY)",
             link: "",
             open: ""
 
         }, 
             "Koanne Game Solver": {
-                desc: "Terminal-based Koanne game solver that that allows you to play against an AI opponent or have two AIs compete against each other using minimax and alpha-beta pruning",
+                desc: "Terminal-based Koanne game solver that that allows you to play against an AI opponent or have two AIs compete against each other using minimax and alpha-beta pruning.",
                 technology: "Python",
                 link:"",
                 open:""
         },
             "Space Invaders": {
-                desc: "A single-player implementation of the famous game, space-invaders",
+                desc: "A single-player implementation of the famous game, space invaders",
                 link: "",
                 open: ""
         }

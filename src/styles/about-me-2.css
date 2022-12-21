@@ -1,6 +1,7 @@
 #aboutTwo {
     padding-left: 15%;
     padding-right: 25%;
+    padding-bottom: 10%;
     min-width: 60vh;
 }
 
@@ -52,4 +53,34 @@ b {
     position: relative;
     color: var(--light-green);
     left: 0;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    #aboutTwo {
+      height: unset;
+      padding-left: unset !important;
+      padding-right: 50% !important;
+      padding-top: 5%;
+    }
+  
+    .aboutTwo-content {
+        display: unset !important;
+      }
+
+    .aboutTwo-desc {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    .text-decoration {
+        font-weight: bold;
+        font-size: 18px; 
+    }
+
+    .p-tag {
+        width: 63%;
+    }
+
+  
   }
