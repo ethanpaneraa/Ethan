@@ -31,7 +31,7 @@ class PersonalProjects extends React.Component {
                 open: "https://stackoverflow.com/questions/73314061/importing-functions-from-other-files-not-working-react"
             }, 
 
-            "ethan.me": {
+            "Personal Porfolio": {
                 desc: "My personal portfolio website. What you are seeing here!",
                 technology: "React.JS, HTML & CSS",
                 link:"",

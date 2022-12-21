@@ -62,6 +62,7 @@ b {
       padding-left: unset !important;
       padding-right: 50% !important;
       padding-top: 5%;
+      align-items: center !important;
     }
   
     .aboutTwo-content {
@@ -79,7 +80,7 @@ b {
     }
 
     .p-tag {
-        width: 63%;
+        width: 65%;
     }
 
   

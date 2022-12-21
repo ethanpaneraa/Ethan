@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/about-me.css";
-import PopInSection from "./PopInSection"; 
+import PopInSection from "./PopInSection";
 
 class AboutMe extends React.Component {
     constructor() {
@@ -39,7 +39,7 @@ class AboutMe extends React.Component {
                 where I am pursuing my Bachelors of Arts and Masters of Science in 
                 <b> Computer Science</b>{". "}
                 After finishing my studies, I hope to work full-time as a <b> Software Engineer </b>
-                and in the future, earn my PhD in Computer Science, further advancing the field of <b> Human-Computer Interaction</b>
+                and in the future, earn my Phd in Computer Science, further advancing the field of <b> Human-Computer Interaction</b>
             </p>
         );
 
@@ -67,7 +67,7 @@ class AboutMe extends React.Component {
                     </ul>
                   </div>
                   <div className="about-image">
-                    <img src={process.env.PUBLIC_URL+"/assets/yo.jpg"}/>
+                    <img src={process.env.PUBLIC_URL+"/assets/yo.JPG"}/>
                   </div>
                 </div>
               </PopInSection>
