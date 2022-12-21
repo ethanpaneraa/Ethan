@@ -72,7 +72,7 @@ class PersonalProjects extends React.Component {
     return (
         <div id="PersonalProjects">
             <div className="section-header">
-                <span className="section-title">{"<\personal-projects>"}</span>
+                <span className="section-title">{"</personal-projects>"}</span>
             </div>
             <div className="project-container">
                 <ul className="projects-layout">
