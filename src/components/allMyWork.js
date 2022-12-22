@@ -92,7 +92,7 @@ const JobList = () => {
       ]
     },
     "Northwestern University Department of Computer Science": {
-      jobTitle: "Undergradaute Research Assistant @",
+      jobTitle: "Undergradaute Teaching Assistant @",
       duration: "JUNE 2022 - PRESENT",
       desc: [
         "Dedicate 6-10 hours weekly for office hours to aid more than 200 students in Data Structures and Algorithms course.",
