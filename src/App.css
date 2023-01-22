@@ -1,5 +1,10 @@
 html {
   scroll-behavior: smooth;
+  /* overflow: hidden; */
+}
+
+body {
+  overscroll-behavior: none;
 }
 
 #PageDetails{
