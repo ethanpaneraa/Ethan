@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Ethan/static/css/main.b2185737.chunk.css",
-    "main.js": "/Ethan/static/js/main.d39a5c2f.chunk.js",
-    "main.js.map": "/Ethan/static/js/main.d39a5c2f.chunk.js.map",
+    "main.js": "/Ethan/static/js/main.2ad6a570.chunk.js",
+    "main.js.map": "/Ethan/static/js/main.2ad6a570.chunk.js.map",
     "runtime-main.js": "/Ethan/static/js/runtime-main.304f1243.js",
     "runtime-main.js.map": "/Ethan/static/js/runtime-main.304f1243.js.map",
     "static/css/2.dbd8b1e0.chunk.css": "/Ethan/static/css/2.dbd8b1e0.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.79165e44.chunk.js": "/Ethan/static/js/3.79165e44.chunk.js",
     "static/js/3.79165e44.chunk.js.map": "/Ethan/static/js/3.79165e44.chunk.js.map",
     "index.html": "/Ethan/index.html",
-    "precache-manifest.b4e32ab95b3c1afb3341acee2b63da4c.js": "/Ethan/precache-manifest.b4e32ab95b3c1afb3341acee2b63da4c.js",
+    "precache-manifest.584d99f814eafef8e5886621677d6c3c.js": "/Ethan/precache-manifest.584d99f814eafef8e5886621677d6c3c.js",
     "service-worker.js": "/Ethan/service-worker.js",
     "static/css/2.dbd8b1e0.chunk.css.map": "/Ethan/static/css/2.dbd8b1e0.chunk.css.map",
     "static/css/main.b2185737.chunk.css.map": "/Ethan/static/css/main.b2185737.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.dbd8b1e0.chunk.css",
     "static/js/2.9efc9183.chunk.js",
     "static/css/main.b2185737.chunk.css",
-    "static/js/main.d39a5c2f.chunk.js"
+    "static/js/main.2ad6a570.chunk.js"
   ]
 }

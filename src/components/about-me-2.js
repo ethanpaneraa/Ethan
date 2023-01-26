@@ -37,7 +37,7 @@ class AboutMeTwo extends React.Component {
                     Taught by <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html">Vincent St-Amour</a>
                 </ul>
 
-                In the Fall 2022 Quarter, I was fortunate to have been awarded the Northwestern Computer Science department <b className="text-decoration">Outstanding Peer Mentor Award</b>{" "}
+                In the Fall 2022 Quarter, I was fortunate to have been awarded the Northwestern Computer Science department <a href="https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2023/northwestern-cs-announces-fall-2022-outstanding-teaching-assistant-and-peer-mentors.html" target={""}><b className="text-decoration" href="">Outstanding Peer Mentor Award</b></a>{" "}
                 in recognition of the dedication and quality I exhibited in my teaching and support towards students. 
 
 
