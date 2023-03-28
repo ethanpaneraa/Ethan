@@ -29,15 +29,16 @@ class AboutMeTwo extends React.Component {
                 I also am a <b className="text-decoration">undergradaute teaching assistant</b> for the following: 
                 <ul>
                     <li><a className="text-decoration" href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/214.html" target={"_blank"}>COMP_SCI 214: Data Structures and Algorithms</a></li>
-                    Summer 2022, Fall 2022, Winter 2023
+                    Summer 2022, Fall 2022, Winter 2023, Spring 2023
                     <br></br>
-                    Teaches the design, implementation, analysis, and proper application of abstract data types,
+                    <p>Teaches the design, implementation, analysis, and proper application of abstract data types,
                     data structures, and their associated algorithms. Explores a wide variety of data structures both
                     conceptually and concretely via implementation.
-                    Taught by <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html">Vincent St-Amour</a>
+                    Taught by<a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html" target="_blank">Vincent St-Amour </a>  
+                    and <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/bhagavatula-sruti.html" target="_blank">Sruti Bhagavatula</a></p>
                 </ul>
 
-                In the Fall 2022 Quarter, I was fortunate to have been awarded the Northwestern Computer Science department <a href="https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2023/northwestern-cs-announces-fall-2022-outstanding-teaching-assistant-and-peer-mentors.html" target={""}><b className="text-decoration" href="">Outstanding Peer Mentor Award</b></a>{" "}
+                In the Fall 2022 Quarter, I was fortunate to have been awarded the Northwestern Computer Science department <a href="https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2023/northwestern-cs-announces-fall-2022-outstanding-teaching-assistant-and-peer-mentors.html" target={"_blank"}><b className="text-decoration" href="">Outstanding Peer Mentor Award</b></a>{" "}
                 in recognition of the dedication and quality I exhibited in my teaching and support towards students. 
 
 
