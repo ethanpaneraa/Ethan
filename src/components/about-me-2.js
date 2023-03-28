@@ -34,14 +34,14 @@ class AboutMeTwo extends React.Component {
                     <p>Teaches the design, implementation, analysis, and proper application of abstract data types,
                     data structures, and their associated algorithms. Explores a wide variety of data structures both
                     conceptually and concretely via implementation.
-                    Taught by<a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html" target="_blank">Vincent St-Amour </a>  
+                    Taught by <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html" target="_blank"> Vincent St-Amour </a>  
                     and <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/bhagavatula-sruti.html" target="_blank">Sruti Bhagavatula</a></p>
                 </ul>
 
-                In the Fall 2022 Quarter, I was fortunate to have been awarded the Northwestern Computer Science department <a href="https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2023/northwestern-cs-announces-fall-2022-outstanding-teaching-assistant-and-peer-mentors.html" target={"_blank"}><b className="text-decoration" href="">Outstanding Peer Mentor Award</b></a>{" "}
+                In the Fall 2022 Quarter, I was fortunate to have been awarded the Northwestern Computer Science department 
+                <a href="https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2023/northwestern-cs-announces-fall-2022-outstanding-teaching-assistant-and-peer-mentors.html" 
+                target={"_blank"}><b className="text-decoration" href=""> Outstanding Peer Mentor Award</b></a>{" "}
                 in recognition of the dedication and quality I exhibited in my teaching and support towards students. 
-
-
             </p>
         ); 
 
@@ -52,18 +52,25 @@ class AboutMeTwo extends React.Component {
                     <li><a className="text-decoration" href="https://www.instagram.com/shpe_nu/" target="_blank"> Society of Hispanic Professional Engineers (SHPE)</a></li>
                     MentorSHPE Chair
                     <br></br>
+                    <br></br>
                     As the MentorSHPE Chair for SHPE, I am responsible for coordinating and supervising our mentorship
                     program that enables first-generation low-income STEM/Engineering Majors at Northwestern to receive 
                     mentorship and guidance on navigating academics, professional goals, and overall personal development.
+                    <br></br>
+                    <br></br>
                     <li> <a className="text-decoration" href="https://www.instagram.com/nu.emergingcoders/" target={"_blank"}>Emerging Coders</a></li>
                     WebMaster
+                    <br></br>
                     <br></br>
                     Seeing more folks that come from the same background in me in technology is important to me. At Emerging Coders,
                     we aim to accomplish that through networking events, panels, and informational sessions. My role in particular, 
                     enables me to lead bi-weekly LeetCode review sessions where I prepare and inform our members on preparing for
                     technical interviews
+                    <br></br>
+                    <br></br>
                     <li><a className="text-decoration" href="https://www.instagram.com/nu_alianza/" target={"_blank"}>Alianza</a></li>
                     Historian
+                    <br></br>
                     <br></br>
                     At Alianza, we are tasked with uniting the Latine community and its allies at Northwestern through community and social events. As the historian, I am tasked with maintaining a solid archive of our impact for future generations of Wildcats to view.
                 </ul>

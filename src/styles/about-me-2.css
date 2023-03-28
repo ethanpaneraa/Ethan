@@ -25,7 +25,11 @@ a {
 
 .text-decoration {
     font-weight: bold;
-    font-size: 22px; 
+    font-size: 21px; 
+}
+
+.text-decoration:hover {
+  color: var(--light-grey);
 }
 
 b {

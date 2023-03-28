@@ -38,33 +38,35 @@ class PersonalProjects extends React.Component {
                 open:"https://ethanpaneraa.github.io/Ethan/"
         },
 
-            
-            
-            "Trip Planner API": {
+        
+            "Recipe Finder API": {
+            desc: "Uses the Edamam Recipe API to allow users to query and filter for recipes as well as their respective cusisine, calorie amount, and ingredients",
+            technology:"React.JS, HTML & CSS",
+            link: "https://github.com/ethanpaneraa/recipe-finder-api/settings/pages",
+            open: "https://ethanpaneraa.github.io/recipe-finder-api/"
+         },
+
+         "Trip Planner API": {
             desc:
                 "Trip planning programming interface that provides routing and searching searches using various data structures (linked-list, hash tables, binary heaps) and algorithms (Dijkstra's algorithm, heap sort) to calculate best optimal routes given a specified query and map.",
             technology: "DSSL2 (Racket)",
             link: "",
             open: ""
         }, 
-            "Apollo": {
+
+            "Terrenos": {
             desc: 
-                "Single-Player 2D brick breaker where your objective is to destroy all the bricks on screen using your paddle.",
-            technology: "C# (UNITY)",
+                "A 2D hybird between popular games Minecraft and Terria mixed with RPG game elements. Built with Antonio Rocha and Arturo Fonseca",
+            technology: "C#, Unity Game Engine",
             link: "https://github.com/ethanpaneraa/COMP-SCI-376-Final-Project-Apollo",
             open: ""
 
         }, 
-            "Koanne Game Solver": {
-                desc: "Terminal-based Koanne game solver that that allows you to play against an AI opponent or have two AIs compete against each other using minimax and alpha-beta pruning.",
-                technology: "Python",
-                link:"",
+            "Unity Flight Simulator": {
+                desc: "Realistic Unity flight simulator, playable with keyboard/controllers",
+                technology: "C#, Unity Game Engine",
+                link:"https://github.com/ethanpaneraa/Unity-Flight-Sim",
                 open:""
-        },
-            "Space Invaders": {
-                desc: "A single-player implementation of the famous game, space invaders",
-                link: "",
-                open: ""
         }
   
     };

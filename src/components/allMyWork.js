@@ -82,26 +82,38 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
+
+    "Ruta Health": {
+      jobTitle: "Student Developer @", 
+      duration: "MARCH 2023 - PRESENT",
+      desc: [
+        "Worked with healthcare startup and actively contribute to the development and launch of beta product.",
+        "Headed the development of a React frontend with a Node.JS backend resulting in improved performance and scalability.",
+        "Collaborated with cross-function teams to understand needs of stakeholders and users and implement features and functionalities that enhance user experience and improve overall performance of the website."
+      ]
+
+    },
+
     "Technological Innovations for Inclusive Learning and Teaching": {
       jobTitle: "Research Assistant @",
       duration: "MARCH 2022 - PRESENT",
       desc: [
-        "Partner with the BLINC project to enhance and implement interactive and accessible front-end features to improve user experience for the real-time multimodal learning analytics platform.",
-        "Spearhead the transition of BLINC codebase from Angular to React increasing code flexibility and readability for future features.",
-        " Direct open house for lab to further recruitment of undergraduate which led to >100 applications sent in and 20 new members."
+        "Partnered with the BLINC project to enhance and implement interactive and accessible front-end features to improve user experience for the real-time multimodal learning analytics platform with 50 daily users.",
+        "Spearheaded the transition of BLINC codebase from Angular to React increasing code flexibility and readability.",
+        "Developed interactive website that combines Microsoft Microbit and p5.js to create interactive art that responds to users’ physical movement, resulting in an immersive and engaging user experience for 20 5th grade students."
       ]
     },
     "Northwestern University Department of Computer Science": {
       jobTitle: "Undergradaute Teaching Assistant @",
       duration: "JUNE 2022 - PRESENT",
       desc: [
-        "Dedicate 6-10 hours weekly for office hours to aid more than 200 students in Data Structures and Algorithms course.",
+        "Dedicated 6-10 hours weekly for office hours to aid more than 200 students in Data Structures and Algorithms class.",
         "Work closely with Professor Vincent St. Amour to provide feedback and grades on student code submissions and examinations.",
-        "Guide students through assignment specifics, attend to Q&A board daily keeping average response time within 5 minutes."
+        "Awarded Outstanding Peer Mentor Award in recognition of high performance and dedication to student learning."
       ]
     },
     "Design and Innovation for Social Change": {
-      jobTitle: "Software Engineer @",
+      jobTitle: "Student Developer @",
       duration: "FEB 2022 - JUNE 2022",
       desc: [
         "Worked as a student developer in a team of 5 to create a JavaScript application for Chicago Furniture Bank that calculates users environmental impact with a web-based interactive calculator.",
