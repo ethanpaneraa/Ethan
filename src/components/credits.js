@@ -25,7 +25,7 @@ class finalCredits extends React.Component {
                         <div>Built and designed by Ethan Pineda.</div>
                         <div>Hosted on GitHub Pages</div>
                         <div>All rights reserved</div>
-                        <div>Last Updated: March 28th 2023</div>
+                        <div>Last Updated: May 11th 2023</div>
                     </div>
                 </div>
             </PopInSection>

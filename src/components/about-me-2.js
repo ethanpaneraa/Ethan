@@ -28,14 +28,25 @@ class AboutMeTwo extends React.Component {
                 
                 I also am a <b className="text-decoration">undergradaute teaching assistant</b> for the following: 
                 <ul>
+                    <li><a className="text-decoration" href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/330-1.html" target={"_blank"}>COMP_SCI 330: Human-Computer Interaction</a></li>
+                    Summer 2023
+                    <br></br>
+                    <p>
+                    Introduction to human-computer interaction and the design of systems that work for people and their organizations. The goal is to understand the manner in which humans interact with, and use, 
+                    their computers for productive work. The course focus is on the interface as designed artifact. The interface is a design problem without a single "correct" solution but which has many 
+                    "good" solutions and a plethora of "bad" solutions. Class discussion centers on what makes an interface good and proven techniques for designing interfaces that meet human needs. 
+                    Taught by <a href="https://vickiebananas.com/">Victoria Concepción Chávez</a>
+                    </p>
                     <li><a className="text-decoration" href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/214.html" target={"_blank"}>COMP_SCI 214: Data Structures and Algorithms</a></li>
                     Summer 2022, Fall 2022, Winter 2023, Spring 2023
                     <br></br>
                     <p>Teaches the design, implementation, analysis, and proper application of abstract data types,
                     data structures, and their associated algorithms. Explores a wide variety of data structures both
                     conceptually and concretely via implementation.
-                    Taught by <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html" target="_blank"> Vincent St-Amour </a>  
-                    and <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/bhagavatula-sruti.html" target="_blank">Sruti Bhagavatula</a></p>
+                    Taught by <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/st-amour-vincent.html" target="_blank"> Vincent St-Amour</a>,   
+                    <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/bhagavatula-sruti.html" target="_blank"> Sruti Bhagavatula</a>, 
+                    and <a href="http://leif.rasmussen.com/" target="_blank">Leif Rasmussen</a>
+                    </p>
                 </ul>
 
                 In the Fall 2022 Quarter, I was fortunate to have been awarded the Northwestern Computer Science department 
