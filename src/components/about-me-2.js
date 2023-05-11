@@ -35,7 +35,7 @@ class AboutMeTwo extends React.Component {
                     Introduction to human-computer interaction and the design of systems that work for people and their organizations. The goal is to understand the manner in which humans interact with, and use, 
                     their computers for productive work. The course focus is on the interface as designed artifact. The interface is a design problem without a single "correct" solution but which has many 
                     "good" solutions and a plethora of "bad" solutions. Class discussion centers on what makes an interface good and proven techniques for designing interfaces that meet human needs. 
-                    Taught by <a href="https://vickiebananas.com/">Victoria Concepción Chávez</a>
+                    Taught by <a href="https://vickiebananas.com/" target="_blank">Victoria Concepción Chávez</a>
                     </p>
                     <li><a className="text-decoration" href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/214.html" target={"_blank"}>COMP_SCI 214: Data Structures and Algorithms</a></li>
                     Summer 2022, Fall 2022, Winter 2023, Spring 2023
