@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59b9714678653e643b7fbc9391645570",
+    "revision": "0ad949f49dfc5539e19cd5698f153caa",
     "url": "/Ethan/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ethan/static/css/2.dbd8b1e0.chunk.css"
   },
   {
-    "revision": "ac5c752e3ad6f1b71295",
+    "revision": "8924822598217506de27",
     "url": "/Ethan/static/css/main.ed0f7f93.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ethan/static/js/3.79165e44.chunk.js"
   },
   {
-    "revision": "ac5c752e3ad6f1b71295",
-    "url": "/Ethan/static/js/main.eac789ce.chunk.js"
+    "revision": "8924822598217506de27",
+    "url": "/Ethan/static/js/main.14848044.chunk.js"
   },
   {
     "revision": "2a7925844b6dc406ac49",
