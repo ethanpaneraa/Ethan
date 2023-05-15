@@ -60,13 +60,20 @@ class AboutMeTwo extends React.Component {
             <p className="p-tag"> 
                 Outside of my academics, you can see me working with some amazing student organizations:
                 <ul>
-                    <li><a className="text-decoration" href="https://www.instagram.com/shpe_nu/" target="_blank"> Society of Hispanic Professional Engineers (SHPE)</a></li>
-                    MentorSHPE Chair
+                    <li><a className="text-decoration" href="https://www.instagram.com/colorstacknu/" target="_blank">ColorStack @Northwestern University</a></li>
+                    Founder & Treasurer
                     <br></br>
                     <br></br>
-                    As the MentorSHPE Chair for SHPE, I am responsible for coordinating and supervising our mentorship
-                    program that enables first-generation low-income STEM/Engineering Majors at Northwestern to receive 
-                    mentorship and guidance on navigating academics, professional goals, and overall personal development.
+                    ColorStack is a tech nonprofit cultivating the strongest cross-campus community of its kind to deliver community building, academic support, 
+                    and career development opportunities at scale. ColorStack exists to increase the number of Black and Latinx graduates interested in technical 
+                    careers. At Northwestern, our goal is to engage peer-to-peer connections so students can meet other Black and Latinx students who major in 
+                    computing fields including computer science, data science, etc. As a chapter of a national organization, we want to help students secure 
+                    their next opportunity by sharing jobs, fellowships, and events from peers and corporate sponsors. We want students to be their most 
+                    authentic selves as part of a diverse, inclusive community. 
+                    <br></br>
+                    <br></br>
+                    As treasurer of this organization, I am in charge and responsible for keeping record of our organization's financials for event planning
+                    as well as applying to grants inside and outside of Northwestern to ensure we can continue to support our members and meet their needs.
                     <br></br>
                     <br></br>
                     <li> <a className="text-decoration" href="https://www.instagram.com/nu.emergingcoders/" target={"_blank"}>Emerging Coders</a></li>
@@ -76,7 +83,18 @@ class AboutMeTwo extends React.Component {
                     Seeing more folks that come from the same background in me in technology is important to me. At Emerging Coders,
                     we aim to accomplish that through networking events, panels, and informational sessions. My role in particular, 
                     enables me to lead bi-weekly LeetCode review sessions where I prepare and inform our members on preparing for
-                    technical interviews
+                    technical interviews as well portfolio-building projects where members can learn and practice new technical skills.
+                    <br></br>
+                    <a className="text-deocration" href="https://drive.google.com/drive/u/0/folders/1aN9pn81bW8MJ8OXphSjHsHClgZ5W32CB" target="_blank">View my Work with Emerging Coders here</a>
+                    <br></br>
+                    <br></br>
+                    <li><a className="text-decoration" href="https://www.instagram.com/shpe_nu/" target="_blank"> Society of Hispanic Professional Engineers (SHPE)</a></li>
+                    MentorSHPE Chair
+                    <br></br>
+                    <br></br>
+                    As the MentorSHPE Chair for SHPE, I am responsible for coordinating and supervising our mentorship
+                    program that enables first-generation low-income STEM/Engineering Majors at Northwestern to receive 
+                    mentorship and guidance on navigating academics, professional goals, and overall personal development.
                     <br></br>
                     <br></br>
                     <li><a className="text-decoration" href="https://www.instagram.com/nu_alianza/" target={"_blank"}>Alianza</a></li>
