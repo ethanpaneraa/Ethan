@@ -83,13 +83,21 @@ const JobList = () => {
 
   const experienceItems = {
 
+    "Salesforce": {
+      jobTitle: "Full Stack Software Engineer Intern @",
+      duration: "JUNE 2023 - AUGUST 2023",
+      desc: [
+        ""
+      ],
+    },
+
     "Ruta Health": {
       jobTitle: "Student Developer @", 
       duration: "MARCH 2023 - PRESENT",
       desc: [
-        "Worked with healthcare startup and actively contribute to the development and launch of beta product.",
-        "Headed the development of a React frontend with a Node.JS backend resulting in improved performance and scalability.",
-        "Collaborated with cross-function teams to understand needs of stakeholders and users and implement features and functionalities that enhance user experience and improve overall performance of the website."
+        "Selected into a cohort of 60 out of 2000 applicants into Salesforce FTL Program, an intensive 10-week internship focusing on full stack development including: front-end, back-end, testing, design, and deployment",
+        "Led, planed, and developed within a team of 3 a 4-week MVP in an Agile setting using React.js, Node.js, Express.js, and PostgresSQL to create a Telemedicine application for immigrants to the United States.",
+        "Performed and led daily standups and weekly sprints, wrote, and assigned user stories in backlog which allowed team to accomplish MVP and include 3 stretch features in final product."
       ]
 
     },
